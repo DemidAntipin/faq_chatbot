@@ -9,7 +9,7 @@
 
 # Результат работы
 
-!(chatbot.png)[chatbot.png]
+![chatbot.png](chatbot.png)
 
 # Установка
 
