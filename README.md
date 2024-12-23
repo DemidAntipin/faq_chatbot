@@ -13,6 +13,6 @@
 
 # Установка
 
-Установите зависимости `requirements.txt`
+Установите зависимости `requirements.txt` и скачайте модель `RuBert`
 
-`pip install requirements.txt`
+`python3 setup.py`

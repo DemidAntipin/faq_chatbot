@@ -10,9 +10,7 @@ with open("questions.txt", "r", encoding="utf-8") as f:
 with open("answers.txt", "r", encoding="utf-8") as f:
         answers = [line.strip() for line in f]
 
-model_name = "DeepPavlov/rubert-base-cased"
-
-embedding_model = SentenceTransformer(model_name)
+embedding_model = SentenceTransformer("rubert_model")
 
 question_embeddings = embedding_model.encode(questions)
 answer_embeddings = embedding_model.encode(answers)
